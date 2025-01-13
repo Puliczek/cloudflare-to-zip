@@ -1,0 +1,14 @@
+### Create ZIP file from base64 encoded files
+POST https://to-zip.maciekpul.workers.dev/zip
+Content-Type: application/json
+
+[
+    {
+        "name": "test1.txt",
+        "base64": "data:text/plain;base64,SGVsbG8gV29ybGQh"
+    },
+    {
+        "name": "test2.txt",
+        "base64": "data:text/plain;base64,VGhpcyBpcyBhIHRlc3QgZmlsZQ=="
+    }
+]
