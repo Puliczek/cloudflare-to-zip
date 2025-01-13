@@ -1,5 +1,5 @@
 ### Create ZIP file from base64 encoded files
-POST https://to-zip.maciekpul.workers.dev/zip
+POST http://127.0.0.1:8787/zip
 Content-Type: application/json
 
 [

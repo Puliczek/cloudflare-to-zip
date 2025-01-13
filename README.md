@@ -11,7 +11,11 @@
 
 # cloudflare-to-zip
 
-A lightweight and efficient Cloudflare Worker service that creates ZIP archives from base64-encoded files on the fly. Built with Hono and designed for high performance and ease of use.
+> Microservice to zip files on Cloudflare Worker - A serverless solution for creating ZIP archives from base64-encoded files directly on the edge.
+
+## About
+
+This lightweight microservice leverages Cloudflare Workers to create ZIP archives on the fly. Perfect for scenarios where you need to bundle multiple files into a ZIP archive without server infrastructure. The service accepts base64-encoded files via a simple REST API endpoint and returns a ready-to-download ZIP file.
 
 ## Features
 
